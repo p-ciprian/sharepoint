@@ -1,0 +1,18 @@
+[
+  {
+    "outputFileName": "css/bundle.css",
+    "inputFiles": [
+      "css/font-definitions.css",
+      "css/font-awesome.css",
+      "css/megafoliopro.css",
+      "css/jquery.fancybox.css",
+      "css/infogrid.css"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/infogrid.js",
+    "inputFiles": [
+      "Scripts/infogrid.js"
+    ]
+  }
+]

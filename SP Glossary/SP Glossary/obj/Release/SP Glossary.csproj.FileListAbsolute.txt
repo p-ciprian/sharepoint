@@ -1,0 +1,3 @@
+C:\Users\cpanzariu\Documents\Visual Studio 2015\Projects\SP Glossary\SP Glossary\bin\Release\SP Glossary.pdb
+C:\Users\cpanzariu\Documents\Visual Studio 2015\Projects\SP Glossary\SP Glossary\obj\Release\SP Glossary.dll
+C:\Users\cpanzariu\Documents\Visual Studio 2015\Projects\SP Glossary\SP Glossary\obj\Release\SP Glossary.pdb

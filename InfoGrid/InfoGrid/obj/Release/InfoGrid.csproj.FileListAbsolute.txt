@@ -1,0 +1,4 @@
+C:\Users\cpanzariu\Documents\Visual Studio 2015\Projects\InfoGrid\InfoGrid\bin\Release\InfoGrid.pdb
+C:\Users\cpanzariu\Documents\Visual Studio 2015\Projects\InfoGrid\InfoGrid\obj\Release\InfoGrid.dll
+C:\Users\cpanzariu\Documents\Visual Studio 2015\Projects\InfoGrid\InfoGrid\obj\Release\InfoGrid.pdb
+C:\Users\cpanzariu\Documents\Visual Studio 2015\Projects\InfoGrid\InfoGrid\obj\Release\InfoGrid.csprojResolveAssemblyReference.cache

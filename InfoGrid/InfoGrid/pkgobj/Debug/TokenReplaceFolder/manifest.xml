@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="b7fdb367-d4ae-4ffd-a3eb-7dc11a8abe8b" SharePointProductVersion="15.0">
+  <FeatureManifests>
+    <FeatureManifest Location="InfoGrid_Feature1\Feature.xml" />
+    <FeatureManifest Location="InfoGrid_Feature2\Feature.xml" />
+  </FeatureManifests>
+</Solution>

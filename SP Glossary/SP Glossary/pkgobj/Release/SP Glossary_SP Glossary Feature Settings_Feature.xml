@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="d2c9d30b-bb83-429c-9978-dabccd356ebf" Scope="Web" Title="SP Glossary Feature1" Version="1.0.0.1">
+  <ElementManifests>
+    <ElementManifest Location="Terms\Elements.xml" />
+    <ElementFile Location="Terms\Schema.xml" />
+    <ElementManifest Location="TermsInstance\Elements.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Terms\Elements.xml" />
+        <ElementManifest Location="TermsInstance\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

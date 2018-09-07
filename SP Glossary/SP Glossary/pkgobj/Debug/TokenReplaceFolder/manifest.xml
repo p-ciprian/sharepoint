@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ee623058-eb68-4ff7-a7c2-0e2928017fd3" SharePointProductVersion="15.0">
+  <FeatureManifests>
+    <FeatureManifest Location="SP Glossary_SP Glossary Feature\Feature.xml" />
+    <FeatureManifest Location="SP Glossary_SP Glossary Feature Settings\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="8679ac70-540d-4bf2-a8c4-2921c43221e2" Scope="Web" Title="InfoGrid Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementFile Location="Pages\Instructions.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\infogrid.js" />
+    <ElementFile Location="Scripts\jquery-2.2.2.min.map" />
+    <ElementFile Location="Scripts\jquery-2.2.2.min.js" />
+    <ElementFile Location="Scripts\jquery-2.2.2.js" />
+    <ElementFile Location="Scripts\jquery-2.2.2.intellisense.js" />
+    <ElementFile Location="Scripts\jquery.fancybox.pack.js" />
+    <ElementFile Location="Scripts\jquery.themepunch.megafoliopro.min.js" />
+    <ElementFile Location="Scripts\jquery.themepunch.plugins.min.js" />
+    <ElementFile Location="Scripts\bundle.js" />
+    <ElementFile Location="Scripts\bundle.min.js" />
+    <ElementFile Location="Scripts\infogrid.min.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementFile Location="Images\1.png" />
+    <ElementFile Location="Images\2.png" />
+    <ElementFile Location="Images\3.png" />
+    <ElementFile Location="Images\4.png" />
+    <ElementManifest Location="Elements.xml" />
+    <ElementFile Location="fonts\FontAwesome.otf" />
+    <ElementFile Location="fonts\fontawesome-webfont.woff2" />
+    <ElementFile Location="fonts\fontawesome-webfont.woff" />
+    <ElementFile Location="fonts\fontawesome-webfont.ttf" />
+    <ElementFile Location="fonts\fontawesome-webfont.svg" />
+    <ElementFile Location="fonts\fontawesome-webfont.eot" />
+    <ElementFile Location="css\font-awesome.min.css" />
+    <ElementFile Location="css\font-awesome.css" />
+    <ElementFile Location="css\infogrid.css" />
+    <ElementFile Location="css\font-definitions.css" />
+    <ElementFile Location="css\megafoliopro.css" />
+    <ElementFile Location="css\jquery.fancybox.css" />
+    <ElementFile Location="css\bundle.css" />
+    <ElementFile Location="css\bundle.min.css" />
+    <ElementFile Location="assets\fancybox_overlay.png" />
+    <ElementFile Location="assets\fancybox_sprite.png" />
+    <ElementFile Location="assets\zoom_clean.png" />
+    <ElementFile Location="fonts\Black\Roboto-Black.woff" />
+    <ElementFile Location="fonts\Black\Roboto-Black.woff2" />
+    <ElementFile Location="fonts\Black\Roboto-Black.ttf" />
+    <ElementFile Location="fonts\BlackItalic\Roboto-BlackItalic.woff" />
+    <ElementFile Location="fonts\BlackItalic\Roboto-BlackItalic.woff2" />
+    <ElementFile Location="fonts\BlackItalic\Roboto-BlackItalic.ttf" />
+    <ElementFile Location="fonts\Bold\Roboto-Bold.woff" />
+    <ElementFile Location="fonts\Bold\Roboto-Bold.woff2" />
+    <ElementFile Location="fonts\Bold\Roboto-Bold.ttf" />
+    <ElementFile Location="fonts\BoldItalic\Roboto-BoldItalic.woff" />
+    <ElementFile Location="fonts\BoldItalic\Roboto-BoldItalic.woff2" />
+    <ElementFile Location="fonts\BoldItalic\Roboto-BoldItalic.ttf" />
+    <ElementFile Location="fonts\Italic\Roboto-Italic.woff" />
+    <ElementFile Location="fonts\Italic\Roboto-Italic.woff2" />
+    <ElementFile Location="fonts\Italic\Roboto-Italic.ttf" />
+    <ElementFile Location="fonts\Light\Roboto-Light.ttf" />
+    <ElementFile Location="fonts\Light\Roboto-Light.woff" />
+    <ElementFile Location="fonts\Light\Roboto-Light.woff2" />
+    <ElementFile Location="fonts\LightItalic\Roboto-LightItalic.woff" />
+    <ElementFile Location="fonts\LightItalic\Roboto-LightItalic.woff2" />
+    <ElementFile Location="fonts\LightItalic\Roboto-LightItalic.ttf" />
+    <ElementFile Location="fonts\Medium\Roboto-Medium.woff" />
+    <ElementFile Location="fonts\Medium\Roboto-Medium.woff2" />
+    <ElementFile Location="fonts\Medium\Roboto-Medium.ttf" />
+    <ElementFile Location="fonts\MediumItalic\Roboto-MediumItalic.woff" />
+    <ElementFile Location="fonts\MediumItalic\Roboto-MediumItalic.woff2" />
+    <ElementFile Location="fonts\MediumItalic\Roboto-MediumItalic.ttf" />
+    <ElementFile Location="fonts\Regular\Roboto-Regular.woff" />
+    <ElementFile Location="fonts\Regular\Roboto-Regular.woff2" />
+    <ElementFile Location="fonts\Regular\Roboto-Regular.ttf" />
+    <ElementFile Location="fonts\Thin\Roboto-Thin.woff" />
+    <ElementFile Location="fonts\Thin\Roboto-Thin.woff2" />
+    <ElementFile Location="fonts\Thin\Roboto-Thin.ttf" />
+    <ElementFile Location="fonts\ThinItalic\Roboto-ThinItalic.woff" />
+    <ElementFile Location="fonts\ThinItalic\Roboto-ThinItalic.woff2" />
+    <ElementFile Location="fonts\ThinItalic\Roboto-ThinItalic.ttf" />
+    <ElementManifest Location="SettingsInstance\Elements.xml" />
+    <ElementManifest Location="Settings\Elements.xml" />
+    <ElementFile Location="Settings\Schema.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="Elements.xml" />
+        <ElementManifest Location="SettingsInstance\Elements.xml" />
+        <ElementManifest Location="Settings\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

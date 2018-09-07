@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E231F9BB-1C70-4139-AD5F-2F581E4466CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SP_Glossary</RootNamespace>
+    <AssemblyName>SP Glossary</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>11.1</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{7ee47922-700d-49c2-98b9-5d107945bdf3}</AppFeaturePartId>
+    <WspPartId>{f6fe12c0-c135-46c6-a895-d04e5af305ab}</WspPartId>
+    <WorkflowPartId>{cd48bdad-b844-4316-99d3-a00e786c5a2d}</WorkflowPartId>
+    <CspkgPartId>{82c8d88b-aeb6-4951-b554-b9f028b9e222}</CspkgPartId>
+    <SqlPackagePartId>{c768dcbd-3a6e-44d9-b2e9-b0d37bb00cd4}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Features\SP Glossary Feature Settings\SP Glossary Feature Settings.Template.xml">
+      <DependentUpon>SP Glossary Feature Settings.feature</DependentUpon>
+    </Content>
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Images\Image_6.JPG" />
+    <Content Include="Images\Image_7.JPG" />
+    <Content Include="Images\Image_8.JPG" />
+    <Content Include="Pages\Settings.aspx" />
+    <Content Include="Settings\Elements.xml" />
+    <Content Include="Settings\Schema.xml" />
+    <Content Include="Settings\SettingsInstance\Elements.xml" />
+    <Content Include="SP Glossary Web Part\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Terms\Elements.xml" />
+    <Content Include="Terms\Schema.xml" />
+    <Content Include="Terms\TermsInstance\Elements.xml" />
+    <None Include="bundleconfig.json" />
+    <None Include="Features\SP Glossary Feature Settings\SP Glossary Feature Settings.feature">
+      <FeatureId>{6dad48fa-b2b2-4319-bb63-9dfcf70d3ff1}</FeatureId>
+    </None>
+    <None Include="Features\SP Glossary Feature\SP Glossary Feature.feature">
+      <FeatureId>{7d2ba851-bd24-43e1-9133-7c4597691726}</FeatureId>
+    </None>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d3ac3b6c-60f0-4681-9c63-79ae860678db}</SharePointProjectItemId>
+    </None>
+    <Content Include="Elements.xml" />
+    <Content Include="Features\SP Glossary Feature\SP Glossary Feature.Template.xml">
+      <DependentUpon>SP Glossary Feature.feature</DependentUpon>
+    </Content>
+    <Content Include="Images\image_1.jpg" />
+    <Content Include="Images\Image_2.JPG" />
+    <Content Include="Images\Image_3.JPG" />
+    <Content Include="Images\Image_4.JPG" />
+    <Content Include="Images\Image_5.JPG" />
+    <Content Include="Pages\Default_WebPart.aspx" />
+    <Content Include="Pages\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Default.aspx" />
+    <None Include="Settings\SettingsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8ffd37a0-949a-486c-9d9d-cfc7fc02bb3a}</SharePointProjectItemId>
+    </None>
+    <None Include="Settings\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c31c2d00-12ec-4b52-b1eb-9c9004d4e2c3}</SharePointProjectItemId>
+    </None>
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8a96cbf1-1f78-48c1-a6c1-6247eb94430e}</SharePointProjectItemId>
+    </None>
+    <None Include="SP Glossary Web Part\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6a71021e-e81f-499c-898f-1f7ceacf05b4}</SharePointProjectItemId>
+    </None>
+    <None Include="Terms\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{978bfaec-9fc0-440e-acd7-d591cd9d7a32}</SharePointProjectItemId>
+    </None>
+    <None Include="Terms\TermsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0d2b8a8b-39b2-4de7-b8ba-556b1a1053aa}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\angular-animate.min.js.map" />
+    <None Include="Scripts\angular-sanitize.min.js.map" />
+    <None Include="Scripts\angular.min.js.map" />
+    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\jquery-2.1.4.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c768dcbd-3a6e-44d9-b2e9-b0d37bb00cd4}</SharePointProjectItemId>
+    </None>
+    <Content Include="Pages\Instructions.aspx" />
+    <Content Include="Scripts\angular-animate.js" />
+    <Content Include="Scripts\angular-animate.min.js" />
+    <Content Include="Scripts\angular-mcustomscrollbar.js" />
+    <Content Include="Scripts\angular-sanitize.js" />
+    <Content Include="Scripts\angular-sanitize.min.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\app\bundle.js" />
+    <Content Include="Scripts\app\bundle.min.js">
+      <DependentUpon>bundle.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\app\glossary-controller.js" />
+    <Content Include="Scripts\app\glossary-menu-directive.js" />
+    <Content Include="Scripts\app\glossary-module.js" />
+    <Content Include="Scripts\app\glossary-scroll-directive.js" />
+    <Content Include="Scripts\app\glossary-service.js" />
+    <Content Include="Scripts\app\glossary-term-filter.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\jquery.mCustomScrollbar.min.js" />
+    <Content Include="Scripts\jquery.mousewheel.min.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f5299771-5a09-4fbd-af94-30a3793612c0}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{da1dd555-e883-43a1-b5c8-2e915c01fa9f}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{ee623058-eb68-4ff7-a7c2-0e2928017fd3}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.resx">
+      <OpcRelationship>content-defaultresource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.en.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

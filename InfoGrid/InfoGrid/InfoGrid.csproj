@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22454C02-18D4-4E3B-8C1E-0A80CD8652B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InfoGrid</RootNamespace>
+    <AssemblyName>InfoGrid</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>11.1</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{6c77c540-99ad-4338-a9ac-7d604017a960}</AppFeaturePartId>
+    <WspPartId>{a9a85ab6-b0d1-47f5-9e39-e4781bd70376}</WspPartId>
+    <WorkflowPartId>{c068b428-51e7-4a32-8e9c-a76c5f2d17b2}</WorkflowPartId>
+    <CspkgPartId>{ab1ae921-bbef-46bd-ab95-c4cae2ae7ff8}</CspkgPartId>
+    <SqlPackagePartId>{fbc28a7a-a331-4f3e-84fd-a6e6b3527ced}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Images\1.png" />
+    <Content Include="Images\2.png" />
+    <Content Include="Images\3.png" />
+    <Content Include="Images\4.png" />
+    <Content Include="InfoGridList\Elements.xml" />
+    <Content Include="InfoGridList\InfoGridListInstance\Elements.xml" />
+    <Content Include="InfoGridList\Schema.xml" />
+    <Content Include="Pages\Instructions.aspx" />
+    <Content Include="Scripts\bundle.js" />
+    <Content Include="Scripts\bundle.min.js">
+      <DependentUpon>bundle.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\infogrid.min.js">
+      <DependentUpon>infogrid.js</DependentUpon>
+    </Content>
+    <Content Include="Settings\Elements.xml" />
+    <Content Include="Settings\Schema.xml" />
+    <Content Include="Settings\SettingsInstance\Elements.xml" />
+    <None Include="bundleconfig.json" />
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{decc2c54-ce5a-45d0-b5cf-fa7d468710c8}</FeatureId>
+    </None>
+    <None Include="fonts\BlackItalic\Roboto-BlackItalic.ttf" />
+    <None Include="fonts\BlackItalic\Roboto-BlackItalic.woff" />
+    <None Include="fonts\BlackItalic\Roboto-BlackItalic.woff2" />
+    <None Include="fonts\Black\Roboto-Black.ttf" />
+    <None Include="fonts\Black\Roboto-Black.woff" />
+    <None Include="fonts\Black\Roboto-Black.woff2" />
+    <None Include="fonts\BoldItalic\Roboto-BoldItalic.ttf" />
+    <None Include="fonts\BoldItalic\Roboto-BoldItalic.woff" />
+    <None Include="fonts\BoldItalic\Roboto-BoldItalic.woff2" />
+    <None Include="fonts\Bold\Roboto-Bold.ttf" />
+    <None Include="fonts\Bold\Roboto-Bold.woff" />
+    <None Include="fonts\Bold\Roboto-Bold.woff2" />
+    <None Include="fonts\fontawesome-webfont.eot" />
+    <None Include="fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\fontawesome-webfont.woff2" />
+    <None Include="fonts\FontAwesome.otf" />
+    <None Include="fonts\Italic\Roboto-Italic.ttf" />
+    <None Include="fonts\Italic\Roboto-Italic.woff" />
+    <None Include="fonts\Italic\Roboto-Italic.woff2" />
+    <None Include="fonts\LightItalic\Roboto-LightItalic.ttf" />
+    <None Include="fonts\LightItalic\Roboto-LightItalic.woff" />
+    <None Include="fonts\LightItalic\Roboto-LightItalic.woff2" />
+    <None Include="fonts\Light\Roboto-Light.ttf" />
+    <None Include="fonts\Light\Roboto-Light.woff" />
+    <None Include="fonts\Light\Roboto-Light.woff2" />
+    <None Include="fonts\MediumItalic\Roboto-MediumItalic.ttf" />
+    <None Include="fonts\MediumItalic\Roboto-MediumItalic.woff" />
+    <None Include="fonts\MediumItalic\Roboto-MediumItalic.woff2" />
+    <None Include="fonts\Medium\Roboto-Medium.ttf" />
+    <None Include="fonts\Medium\Roboto-Medium.woff" />
+    <None Include="fonts\Medium\Roboto-Medium.woff2" />
+    <None Include="fonts\Regular\Roboto-Regular.ttf" />
+    <None Include="fonts\Regular\Roboto-Regular.woff" />
+    <None Include="fonts\Regular\Roboto-Regular.woff2" />
+    <None Include="fonts\ThinItalic\Roboto-ThinItalic.ttf" />
+    <None Include="fonts\ThinItalic\Roboto-ThinItalic.woff" />
+    <None Include="fonts\ThinItalic\Roboto-ThinItalic.woff2" />
+    <None Include="fonts\Thin\Roboto-Thin.ttf" />
+    <None Include="fonts\Thin\Roboto-Thin.woff" />
+    <None Include="fonts\Thin\Roboto-Thin.woff2" />
+    <None Include="InfoGridList\InfoGridListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f9d37b98-60b0-4fd1-8361-7a13e0aae010}</SharePointProjectItemId>
+    </None>
+    <None Include="InfoGridList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{48c03c9c-0665-4380-8fb3-73a16472691e}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{09e759b1-2afe-48ad-93bb-c14565506956}</SharePointProjectItemId>
+    </None>
+    <Content Include="assets\fancybox_overlay.png" />
+    <Content Include="assets\fancybox_sprite.png" />
+    <Content Include="assets\zoom_clean.png" />
+    <Content Include="css\bundle.css" />
+    <Content Include="css\bundle.min.css">
+      <DependentUpon>bundle.css</DependentUpon>
+    </Content>
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\font-definitions.css" />
+    <Content Include="css\infogrid.css" />
+    <Content Include="css\jquery.fancybox.css" />
+    <Content Include="css\megafoliopro.css" />
+    <Content Include="Elements.xml" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\jquery-2.2.2.min.map" />
+    <None Include="Settings\SettingsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4f5347f5-bec2-4686-81a6-5e7f3d13afa2}</SharePointProjectItemId>
+    </None>
+    <None Include="Settings\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7c62bd77-7186-4b4e-9116-3d0026d83340}</SharePointProjectItemId>
+    </None>
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{49b5ea01-a54d-4f3f-91d3-06f15d3efcaa}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fbc28a7a-a331-4f3e-84fd-a6e6b3527ced}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\infogrid.js" />
+    <Content Include="Scripts\jquery-2.2.2.intellisense.js" />
+    <Content Include="Scripts\jquery-2.2.2.js" />
+    <Content Include="Scripts\jquery-2.2.2.min.js" />
+    <Content Include="Scripts\jquery.fancybox.pack.js" />
+    <Content Include="Scripts\jquery.themepunch.megafoliopro.min.js" />
+    <Content Include="Scripts\jquery.themepunch.plugins.min.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6244aa76-3e0a-4436-9b49-8935ff514bcd}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4785db38-6a09-4384-8bd1-a9b6e2f70227}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{b7fdb367-d4ae-4ffd-a3eb-7dc11a8abe8b}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{8679ac70-540d-4bf2-a8c4-2921c43221e2}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.resx">
+      <OpcRelationship>content-defaultresource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.en.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.en-GB.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.en-US.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

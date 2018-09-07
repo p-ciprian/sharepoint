@@ -1,0 +1,83 @@
+﻿body {
+    background-color: rgba(105, 0, 143, 1);
+    display:none;
+}
+
+html {
+    overflow-y: scroll;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.megafolio-container, .megafolio-container-splash {
+    position: relative;
+}
+
+.mega-title {
+    font-size: 12px;
+}
+
+@media(min-width: 600px) {
+    .mega-title {
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 800px) {
+    .mega-title {
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 1000px) {
+    .mega-title {
+        font-size: 24px;
+    }
+}
+
+.infogrid-view-port {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.infogrid-document {
+    height: 100%;
+}
+
+.infogrid-document-image {
+    height: 30%;
+    width: 100%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.infogrid-document-content {
+    height: 60%;
+    height: calc(70%-50px);
+    padding: 30px 50px;
+}
+
+.infogrid-button{
+    background-color: transparent;
+    border: 1px solid #3d0053;
+    color: #3d0053;
+    font-size: 24px;
+    border-radius: 2px;
+    cursor:pointer;
+    min-width:40px;
+}
+
+.infogrid-button:hover{
+    border-color:white;
+    color:white;
+}
+
+.admin-button{
+    color:#fff;
+    border-color:#fff;
+}
+
+.no-items-page{
+    display:none;
+}

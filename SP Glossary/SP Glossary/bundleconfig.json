@@ -1,0 +1,13 @@
+[
+  {
+    "outputFileName": "Scripts/app/bundle.js",
+    "inputFiles": [
+      "Scripts/app/glossary-module.js",
+      "Scripts/app/glossary-scroll-directive.js",
+      "Scripts/app/glossary-menu-directive.js",
+      "Scripts/app/glossary-service.js",
+      "Scripts/app/glossary-term-filter.js",
+      "Scripts/app/glossary-controller.js"
+    ]
+  }
+]

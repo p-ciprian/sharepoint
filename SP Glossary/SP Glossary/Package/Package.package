@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ee623058-eb68-4ff7-a7c2-0e2928017fd3" solutionId="ee623058-eb68-4ff7-a7c2-0e2928017fd3" resetWebServer="false" sharePointProductVersion="15.0" name="SP_Glossary" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="7d2ba851-bd24-43e1-9133-7c4597691726" />
+    <featureReference itemId="6dad48fa-b2b2-4319-bb63-9dfcf70d3ff1" />
+  </features>
+</package>

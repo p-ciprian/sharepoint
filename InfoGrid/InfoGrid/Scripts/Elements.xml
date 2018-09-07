@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\infogrid.js" Url="Scripts/infogrid.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.2.2.min.map" Url="Scripts/jquery-2.2.2.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.2.2.min.js" Url="Scripts/jquery-2.2.2.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.2.2.js" Url="Scripts/jquery-2.2.2.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.2.2.intellisense.js" Url="Scripts/jquery-2.2.2.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.fancybox.pack.js" Url="Scripts/jquery.fancybox.pack.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.themepunch.megafoliopro.min.js" Url="Scripts/jquery.themepunch.megafoliopro.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.themepunch.plugins.min.js" Url="Scripts/jquery.themepunch.plugins.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bundle.js" Url="Scripts/bundle.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bundle.min.js" Url="Scripts/bundle.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\infogrid.min.js" Url="Scripts/infogrid.min.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,3 @@
+c:\users\cpanzariu\documents\visual studio 2015\Projects\InfoGrid\InfoGrid\bin\Debug\InfoGrid.pdb
+c:\users\cpanzariu\documents\visual studio 2015\Projects\InfoGrid\InfoGrid\obj\Debug\InfoGrid.dll
+c:\users\cpanzariu\documents\visual studio 2015\Projects\InfoGrid\InfoGrid\obj\Debug\InfoGrid.pdb

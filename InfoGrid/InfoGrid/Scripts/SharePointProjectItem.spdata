@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="infogrid.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-2.2.2.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-2.2.2.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-2.2.2.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-2.2.2.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.fancybox.pack.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.themepunch.megafoliopro.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.themepunch.plugins.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="bundle.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="bundle.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="infogrid.min.js" Target="Scripts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

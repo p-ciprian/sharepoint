@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b7fdb367-d4ae-4ffd-a3eb-7dc11a8abe8b" solutionId="b7fdb367-d4ae-4ffd-a3eb-7dc11a8abe8b" resetWebServer="false" sharePointProductVersion="15.0" name="InfoGrid" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="8679ac70-540d-4bf2-a8c4-2921c43221e2" />
+    <featureReference itemId="decc2c54-ce5a-45d0-b5cf-fa7d468710c8" />
+  </features>
+</package>

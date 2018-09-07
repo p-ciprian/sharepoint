@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\1.png" Url="Images/1.png" ReplaceContent="TRUE" />
+    <File Path="Images\2.png" Url="Images/2.png" ReplaceContent="TRUE" />
+    <File Path="Images\3.png" Url="Images/3.png" ReplaceContent="TRUE" />
+    <File Path="Images\4.png" Url="Images/4.png" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

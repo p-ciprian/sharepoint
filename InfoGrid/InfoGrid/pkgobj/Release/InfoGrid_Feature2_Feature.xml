@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="7bbc1e32-55fb-4de3-8811-21472ccd83bb" Scope="Web" Title="InfoGrid Feature2" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="InfoGridList\Elements.xml" />
+    <ElementFile Location="InfoGridList\Schema.xml" />
+    <ElementManifest Location="InfoGridListInstance\Elements.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="InfoGridList\Elements.xml" />
+        <ElementManifest Location="InfoGridListInstance\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

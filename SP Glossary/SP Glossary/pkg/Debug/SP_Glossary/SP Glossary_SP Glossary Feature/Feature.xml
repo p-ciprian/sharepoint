@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="442f67a7-ed53-4a31-b5ec-f4884f26890a" Scope="Web" Title="SP Glossary Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Elements.xml" />
+    <ElementFile Location="fonts\FontAwesome.otf" />
+    <ElementFile Location="fonts\fontawesome-webfont.woff2" />
+    <ElementFile Location="fonts\fontawesome-webfont.woff" />
+    <ElementFile Location="fonts\fontawesome-webfont.ttf" />
+    <ElementFile Location="fonts\fontawesome-webfont.svg" />
+    <ElementFile Location="fonts\fontawesome-webfont.eot" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementFile Location="Content\font-awesome.min.css" />
+    <ElementFile Location="Content\font-awesome.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementFile Location="Images\Image_3.JPG" />
+    <ElementFile Location="Images\Image_4.JPG" />
+    <ElementFile Location="Images\Image_5.JPG" />
+    <ElementFile Location="Images\image_1.jpg" />
+    <ElementFile Location="Images\Image_2.JPG" />
+    <ElementFile Location="Images\Image_8.JPG" />
+    <ElementFile Location="Images\Image_6.JPG" />
+    <ElementFile Location="Images\Image_7.JPG" />
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementFile Location="Pages\Instructions.aspx" />
+    <ElementFile Location="Pages\Default_WebPart.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.map" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.intellisense.js" />
+    <ElementFile Location="Scripts\angular-sanitize.min.js.map" />
+    <ElementFile Location="Scripts\jquery.mCustomScrollbar.min.js" />
+    <ElementFile Location="Scripts\jquery.mousewheel.min.js" />
+    <ElementFile Location="Scripts\jquery-2.1.4.intellisense.js" />
+    <ElementFile Location="Scripts\jquery-2.1.4.js" />
+    <ElementFile Location="Scripts\jquery-2.1.4.min.js" />
+    <ElementFile Location="Scripts\jquery-2.1.4.min.map" />
+    <ElementFile Location="Scripts\angular.js" />
+    <ElementFile Location="Scripts\angular.min.js.map" />
+    <ElementFile Location="Scripts\angular-animate.js" />
+    <ElementFile Location="Scripts\angular-animate.min.js" />
+    <ElementFile Location="Scripts\angular-animate.min.js.map" />
+    <ElementFile Location="Scripts\angular-mcustomscrollbar.js" />
+    <ElementFile Location="Scripts\angular-sanitize.js" />
+    <ElementFile Location="Scripts\angular-sanitize.min.js" />
+    <ElementFile Location="Scripts\app\glossary-service.js" />
+    <ElementFile Location="Scripts\app\glossary-term-filter.js" />
+    <ElementFile Location="Scripts\app\glossary-controller.js" />
+    <ElementFile Location="Scripts\app\glossary-menu-directive.js" />
+    <ElementFile Location="Scripts\app\glossary-module.js" />
+    <ElementFile Location="Scripts\app\glossary-scroll-directive.js" />
+    <ElementFile Location="Scripts\app\bundle.js" />
+    <ElementFile Location="Scripts\app\bundle.min.js" />
+    <ElementManifest Location="SettingsInstance\Elements.xml" />
+    <ElementManifest Location="Settings\Elements.xml" />
+    <ElementFile Location="Settings\Schema.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="SettingsInstance\Elements.xml" />
+        <ElementManifest Location="Settings\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

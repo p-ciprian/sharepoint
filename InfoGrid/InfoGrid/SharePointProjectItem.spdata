@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
+    <ProjectItemFile Source="fonts\FontAwesome.otf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.woff2" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.woff" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.ttf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.svg" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.eot" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="css\font-awesome.min.css" Target="css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\font-awesome.css" Target="css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\infogrid.css" Target="css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\font-definitions.css" Target="css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\megafoliopro.css" Target="css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\jquery.fancybox.css" Target="css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\bundle.css" Target="css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\bundle.min.css" Target="css\" Type="ElementFile" />
+    <ProjectItemFile Source="assets\fancybox_overlay.png" Target="assets\" Type="ElementFile" />
+    <ProjectItemFile Source="assets\fancybox_sprite.png" Target="assets\" Type="ElementFile" />
+    <ProjectItemFile Source="assets\zoom_clean.png" Target="assets\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Black\Roboto-Black.woff" Target="fonts\Black\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Black\Roboto-Black.woff2" Target="fonts\Black\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Black\Roboto-Black.ttf" Target="fonts\Black\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\BlackItalic\Roboto-BlackItalic.woff" Target="fonts\BlackItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\BlackItalic\Roboto-BlackItalic.woff2" Target="fonts\BlackItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\BlackItalic\Roboto-BlackItalic.ttf" Target="fonts\BlackItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Bold\Roboto-Bold.woff" Target="fonts\Bold\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Bold\Roboto-Bold.woff2" Target="fonts\Bold\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Bold\Roboto-Bold.ttf" Target="fonts\Bold\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\BoldItalic\Roboto-BoldItalic.woff" Target="fonts\BoldItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\BoldItalic\Roboto-BoldItalic.woff2" Target="fonts\BoldItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\BoldItalic\Roboto-BoldItalic.ttf" Target="fonts\BoldItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Italic\Roboto-Italic.woff" Target="fonts\Italic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Italic\Roboto-Italic.woff2" Target="fonts\Italic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Italic\Roboto-Italic.ttf" Target="fonts\Italic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Light\Roboto-Light.ttf" Target="fonts\Light\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Light\Roboto-Light.woff" Target="fonts\Light\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Light\Roboto-Light.woff2" Target="fonts\Light\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\LightItalic\Roboto-LightItalic.woff" Target="fonts\LightItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\LightItalic\Roboto-LightItalic.woff2" Target="fonts\LightItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\LightItalic\Roboto-LightItalic.ttf" Target="fonts\LightItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Medium\Roboto-Medium.woff" Target="fonts\Medium\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Medium\Roboto-Medium.woff2" Target="fonts\Medium\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Medium\Roboto-Medium.ttf" Target="fonts\Medium\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\MediumItalic\Roboto-MediumItalic.woff" Target="fonts\MediumItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\MediumItalic\Roboto-MediumItalic.woff2" Target="fonts\MediumItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\MediumItalic\Roboto-MediumItalic.ttf" Target="fonts\MediumItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Regular\Roboto-Regular.woff" Target="fonts\Regular\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Regular\Roboto-Regular.woff2" Target="fonts\Regular\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Regular\Roboto-Regular.ttf" Target="fonts\Regular\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Thin\Roboto-Thin.woff" Target="fonts\Thin\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Thin\Roboto-Thin.woff2" Target="fonts\Thin\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Thin\Roboto-Thin.ttf" Target="fonts\Thin\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\ThinItalic\Roboto-ThinItalic.woff" Target="fonts\ThinItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\ThinItalic\Roboto-ThinItalic.woff2" Target="fonts\ThinItalic\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\ThinItalic\Roboto-ThinItalic.ttf" Target="fonts\ThinItalic\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

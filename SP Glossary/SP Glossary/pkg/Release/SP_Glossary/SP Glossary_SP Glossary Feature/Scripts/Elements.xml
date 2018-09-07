@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular.min.js.map" Url="Scripts/angular.min.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular.js" Url="Scripts/angular.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-sanitize.min.js.map" Url="Scripts/angular-sanitize.min.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-sanitize.min.js" Url="Scripts/angular-sanitize.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-sanitize.js" Url="Scripts/angular-sanitize.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-animate.min.js" Url="Scripts/angular-animate.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-animate.js" Url="Scripts/angular-animate.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app\glossary-module.js" Url="Scripts/app/glossary-module.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app\glossary-controller.js" Url="Scripts/app/glossary-controller.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app\glossary-service.js" Url="Scripts/app/glossary-service.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.mCustomScrollbar.min.js" Url="Scripts/jquery.mCustomScrollbar.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-mcustomscrollbar.js" Url="Scripts/angular-mcustomscrollbar.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.mousewheel.min.js" Url="Scripts/jquery.mousewheel.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.4.min.map" Url="Scripts/jquery-2.1.4.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.4.min.js" Url="Scripts/jquery-2.1.4.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.4.js" Url="Scripts/jquery-2.1.4.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.4.intellisense.js" Url="Scripts/jquery-2.1.4.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app\glossary-scroll-directive.js" Url="Scripts/app/glossary-scroll-directive.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app\bundle.js" Url="Scripts/app/bundle.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app\bundle.min.js" Url="Scripts/app/bundle.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app\glossary-menu-directive.js" Url="Scripts/app/glossary-menu-directive.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app\glossary-term-filter.js" Url="Scripts/app/glossary-term-filter.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-animate.min.js.map" Url="Scripts/angular-animate.min.js.map" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

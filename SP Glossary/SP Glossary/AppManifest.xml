@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="SPGlossary"
+     ProductID="{d3ac3b6c-60f0-4681-9c63-79ae860678db}"
+     Version="1.0.0.1"
+     SharePointMinVersion="15.0.0.0"
+>
+  <Properties>
+    <Title>SP Glossary</Title>
+    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+    <SupportedLocales>
+      <SupportedLocale CultureName="en-us" />
+    </SupportedLocales>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+
+
+</App>

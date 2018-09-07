@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="fonts\FontAwesome.otf" Url="fonts/FontAwesome.otf" ReplaceContent="TRUE" />
+    <File Path="fonts\fontawesome-webfont.woff2" Url="fonts/fontawesome-webfont.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\fontawesome-webfont.woff" Url="fonts/fontawesome-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\fontawesome-webfont.ttf" Url="fonts/fontawesome-webfont.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\fontawesome-webfont.svg" Url="fonts/fontawesome-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="fonts\fontawesome-webfont.eot" Url="fonts/fontawesome-webfont.eot" ReplaceContent="TRUE" />
+    <File Path="css\font-awesome.min.css" Url="css/font-awesome.min.css" ReplaceContent="TRUE" />
+    <File Path="css\font-awesome.css" Url="css/font-awesome.css" ReplaceContent="TRUE" />
+    <File Path="css\infogrid.css" Url="css/infogrid.css" ReplaceContent="TRUE" />
+    <File Path="css\font-definitions.css" Url="css/font-definitions.css" ReplaceContent="TRUE" />
+    <File Path="css\megafoliopro.css" Url="css/megafoliopro.css" ReplaceContent="TRUE" />
+    <File Path="css\jquery.fancybox.css" Url="css/jquery.fancybox.css" ReplaceContent="TRUE" />
+    <File Path="css\bundle.css" Url="css/bundle.css" ReplaceContent="TRUE" />
+    <File Path="css\bundle.min.css" Url="css/bundle.min.css" ReplaceContent="TRUE" />
+    <File Path="assets\fancybox_overlay.png" Url="assets/fancybox_overlay.png" ReplaceContent="TRUE" />
+    <File Path="assets\fancybox_sprite.png" Url="assets/fancybox_sprite.png" ReplaceContent="TRUE" />
+    <File Path="assets\zoom_clean.png" Url="assets/zoom_clean.png" ReplaceContent="TRUE" />
+    <File Path="fonts\Black\Roboto-Black.woff" Url="fonts/Black/Roboto-Black.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\Black\Roboto-Black.woff2" Url="fonts/Black/Roboto-Black.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\Black\Roboto-Black.ttf" Url="fonts/Black/Roboto-Black.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\BlackItalic\Roboto-BlackItalic.woff" Url="fonts/BlackItalic/Roboto-BlackItalic.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\BlackItalic\Roboto-BlackItalic.woff2" Url="fonts/BlackItalic/Roboto-BlackItalic.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\BlackItalic\Roboto-BlackItalic.ttf" Url="fonts/BlackItalic/Roboto-BlackItalic.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\Bold\Roboto-Bold.woff" Url="fonts/Bold/Roboto-Bold.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\Bold\Roboto-Bold.woff2" Url="fonts/Bold/Roboto-Bold.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\Bold\Roboto-Bold.ttf" Url="fonts/Bold/Roboto-Bold.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\BoldItalic\Roboto-BoldItalic.woff" Url="fonts/BoldItalic/Roboto-BoldItalic.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\BoldItalic\Roboto-BoldItalic.woff2" Url="fonts/BoldItalic/Roboto-BoldItalic.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\BoldItalic\Roboto-BoldItalic.ttf" Url="fonts/BoldItalic/Roboto-BoldItalic.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\Italic\Roboto-Italic.woff" Url="fonts/Italic/Roboto-Italic.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\Italic\Roboto-Italic.woff2" Url="fonts/Italic/Roboto-Italic.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\Italic\Roboto-Italic.ttf" Url="fonts/Italic/Roboto-Italic.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\Light\Roboto-Light.ttf" Url="fonts/Light/Roboto-Light.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\Light\Roboto-Light.woff" Url="fonts/Light/Roboto-Light.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\Light\Roboto-Light.woff2" Url="fonts/Light/Roboto-Light.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\LightItalic\Roboto-LightItalic.woff" Url="fonts/LightItalic/Roboto-LightItalic.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\LightItalic\Roboto-LightItalic.woff2" Url="fonts/LightItalic/Roboto-LightItalic.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\LightItalic\Roboto-LightItalic.ttf" Url="fonts/LightItalic/Roboto-LightItalic.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\Medium\Roboto-Medium.woff" Url="fonts/Medium/Roboto-Medium.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\Medium\Roboto-Medium.woff2" Url="fonts/Medium/Roboto-Medium.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\Medium\Roboto-Medium.ttf" Url="fonts/Medium/Roboto-Medium.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\MediumItalic\Roboto-MediumItalic.woff" Url="fonts/MediumItalic/Roboto-MediumItalic.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\MediumItalic\Roboto-MediumItalic.woff2" Url="fonts/MediumItalic/Roboto-MediumItalic.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\MediumItalic\Roboto-MediumItalic.ttf" Url="fonts/MediumItalic/Roboto-MediumItalic.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\Regular\Roboto-Regular.woff" Url="fonts/Regular/Roboto-Regular.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\Regular\Roboto-Regular.woff2" Url="fonts/Regular/Roboto-Regular.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\Regular\Roboto-Regular.ttf" Url="fonts/Regular/Roboto-Regular.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\Thin\Roboto-Thin.woff" Url="fonts/Thin/Roboto-Thin.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\Thin\Roboto-Thin.woff2" Url="fonts/Thin/Roboto-Thin.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\Thin\Roboto-Thin.ttf" Url="fonts/Thin/Roboto-Thin.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\ThinItalic\Roboto-ThinItalic.woff" Url="fonts/ThinItalic/Roboto-ThinItalic.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\ThinItalic\Roboto-ThinItalic.woff2" Url="fonts/ThinItalic/Roboto-ThinItalic.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\ThinItalic\Roboto-ThinItalic.ttf" Url="fonts/ThinItalic/Roboto-ThinItalic.ttf" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
