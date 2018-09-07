@@ -3,17 +3,17 @@
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="SPGlossary"
      ProductID="{d3ac3b6c-60f0-4681-9c63-79ae860678db}"
-     Version="1.0.0.1"
+     Version="1.0.0.3"
      SharePointMinVersion="15.0.0.0"
 >
   <Properties>
     <Title>SP Glossary</Title>
     <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
     <SupportedLocales>
-      <SupportedLocale CultureName="en-us" />
+      <SupportedLocale CultureName="en-US" />
+      <SupportedLocale CultureName="en-GB" />
     </SupportedLocales>
   </Properties>
-
   <AppPrincipal>
     <Internal />
   </AppPrincipal>

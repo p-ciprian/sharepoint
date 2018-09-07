@@ -85,10 +85,10 @@
             Try breaking the role inheritance by clicking the button:
             <button type="button" onclick="breakRoleInheritance()">Break Role Inheritance</button>
         </p>
-        <p>Be aware that breaking the role inheritance will copy the current permission from the host web but it will not be in synch with the host web permission (e.g. if you add a new user/group to the host web it will not be automatically copied to the add-in permissions). The permission inheritance can be restored at any time.</p>
+        <p>Be aware that breaking the role inheritance will copy the current permission from the host web but it will not be in synch with the host web permissions (e.g. if you add a new user/group to the host web it will not be automatically copied to the add-in permissions). The permission inheritance can be restored at any time.</p>
         <br />
         <h3>Add-in Settings</h3>
         <p>Please read the <a title="Instructions" href="../Pages/Instructions.aspx">Instructions</a> before adding/updating the settings values</p>
-        <p>Click <a title="Settings" href="../Lists/Terms/AllItems.aspx">here</a> to navigate to the settings library.</p>
+        <p>Click <a title="Settings" href="../Lists/Settings/AllItems.aspx">here</a> to navigate to the settings library.</p>
     </div>
 </asp:Content>

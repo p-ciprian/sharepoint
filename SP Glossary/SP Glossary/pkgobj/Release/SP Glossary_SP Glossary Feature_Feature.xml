@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="442f67a7-ed53-4a31-b5ec-f4884f26890a" Scope="Web" Title="SP Glossary Feature1" Version="1.0.0.1">
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="442f67a7-ed53-4a31-b5ec-f4884f26890a" Scope="Web" Title="SP Glossary Feature1" Version="1.0.0.3">
   <ElementManifests>
     <ElementManifest Location="Elements.xml" />
     <ElementFile Location="fonts\FontAwesome.otf" />
